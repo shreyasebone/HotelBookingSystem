@@ -5,30 +5,65 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:HotelBookingSystem"
         mc:Ignorable="d"
-        Title="BookingWindow" Height="450" Width="800">
+        Title="BookingWindow" Height="450" Width="800"
+        >
     <Grid>
-        <Grid>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="73*"/>
-                <RowDefinition Height="361*"/>
-            </Grid.RowDefinitions>
-            <Grid Grid.Row="1">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="197*"/>
-                    <ColumnDefinition Width="406*"/>
-                    <ColumnDefinition Width="197*"/>
-                </Grid.ColumnDefinitions>
-                <Grid Grid.Column="1">
-                    <Grid.RowDefinitions>
-                        <RowDefinition/>
-                        <RowDefinition/>
-                        <RowDefinition/>
-                        <RowDefinition/>
-                    </Grid.RowDefinitions>
-                    <TextBlock HorizontalAlignment="Left" Margin="52,24,0,0" TextWrapping="Wrap" Text="HotelName" VerticalAlignment="Top"/>
-                </Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="73*"/>
+            <RowDefinition Height="361*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="197*"/>
+                <ColumnDefinition Width="406*"/>
+                <ColumnDefinition Width="197*"/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <StackPanel Grid.Row="0">
+
+                </StackPanel>
+
+                <TextBlock x:Name="TxtBlockHotelName" HorizontalAlignment="Left" Margin="52,0,0,0" Grid.Row="0" TextWrapping="Wrap" Text="HotelName" VerticalAlignment="Center" FontSize="18"/>
+                <TextBox x:Name="txtHotelName" HorizontalAlignment="Left" Margin="221,27,0,0" Grid.Row="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="175" FontSize="18"/>
+
+                <TextBlock x:Name="TxtBlockStartDate" HorizontalAlignment="Left" Margin="58,0,0,0" Grid.Row="1" TextWrapping="Wrap" Text="StartDate" VerticalAlignment="Center" FontSize="18"/>
+
+                <DatePicker x:Name="datepicker2" 
+                                HorizontalAlignment="Left"
+                                FontSize="12"
+                                IsDropDownOpen="False"
+                                SelectedDateFormat="Long" Margin="221,27,0,19" Width="175" Grid.Row="1"/>
+                <TextBlock x:Name="TxtBlockEndDate" HorizontalAlignment="Left" Margin="58,27,0,0" Grid.Row="2" TextWrapping="Wrap" Text="EndDate" VerticalAlignment="Top" FontSize="18"/>
+                <DatePicker x:Name="datepicker" 
+                                HorizontalAlignment="Left"
+                                FontSize="12"
+                                IsDropDownOpen="False"
+                                SelectedDateFormat="Long" Margin="221,28,0,19" Width="175" Grid.Row="2">
+
+                </DatePicker>
+
+
+                <TextBlock x:Name="TxtBlockTotalAmount" HorizontalAlignment="Left" Margin="58,26,0,0" Grid.Row="3" TextWrapping="Wrap" Text="TotalAmount" VerticalAlignment="Top" FontSize="18"/>
+                <TextBox x:Name="txtHotelTotalAmount" HorizontalAlignment="Left" Margin="221,25,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="175" FontSize="18" Grid.Row="3"/>
+                <Button x:Name="BookButton" Content="Book" HorizontalAlignment="Left" Margin="293,15,0,0" Grid.Row="4" VerticalAlignment="Top" FontSize="20" Background="#FF6ABAF7" Width="62"/>
+
+
+
+
             </Grid>
+            <TextBlock x:Name="TxtBlockBooking" HorizontalAlignment="Left" Margin="357,10,0,0" TextWrapping="Wrap" Text="Booking" VerticalAlignment="Top"  FontSize="22" FontWeight="Bold"/>
+            <TextBlock x:Name="UserName" HorizontalAlignment="Left" Margin="687,19,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="UserName" FontSize="18"/>
         </Grid>
+        <TextBlock x:Name="UserName1" HorizontalAlignment="Left" Margin="671,10,0,0" TextWrapping="Wrap" Text="UserName" VerticalAlignment="Top" FontSize="18" Width="121"/>
+        <TextBlock x:Name="HotelBooking" HorizontalAlignment="Left" Margin="48,22,0,0" TextWrapping="Wrap" Text="HotelBooking" VerticalAlignment="Top" FontSize="18" FontWeight="Bold"/>
 
     </Grid>
 </Window>

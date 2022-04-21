@@ -26,5 +26,10 @@ namespace HotelBookingSystem {
             mainWindow.Show();
             this.Close();
         }
+        private void Reset_Click(object sender, RoutedEventArgs e) {
+            SignUpWindow obj=new SignUpWindow();
+              this.Close();
+            obj.Show();
+        }
     }
 }

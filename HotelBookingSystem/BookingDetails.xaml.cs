@@ -14,18 +14,18 @@ using System.Windows.Shapes;
 
 namespace HotelBookingSystem {
     /// <summary>
-    /// Interaction logic for BookingWindow.xaml
+    /// Interaction logic for BookingDetails.xaml
     /// </summary>
-    public partial class BookingWindow : Window {
-        public BookingWindow() {
+    public partial class BookingDetails : Window {
+        public BookingDetails() {
             InitializeComponent();
         }
 
-        private void txtHotelName_TextChanged(object sender, TextChangedEventArgs e) {
+        private void DataGrid_SelectionChanged(object sender, SelectionChangedEventArgs e) {
 
         }
 
-        private void TextBox_TextChanged(object sender, TextChangedEventArgs e) {
+        private void ListBox_SelectionChanged(object sender, SelectionChangedEventArgs e) {
 
         }
     }
