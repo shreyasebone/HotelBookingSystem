@@ -9,7 +9,7 @@ namespace HotelBookingSystem.UserRegistration
 {
     internal interface IUserSignup
     {
-        UserDao submitUserData(UserDao userDao);
+        UserDao createUserData(UserDao userDao);
         UserDao getUserDetailByID(int userId);
         bool updateUserData(UserDao userDao);
     }

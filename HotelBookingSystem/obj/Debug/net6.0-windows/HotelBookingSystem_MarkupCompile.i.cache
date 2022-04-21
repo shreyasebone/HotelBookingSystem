@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\Shreya Paliwal\source\repos\HotelBookingSystem\HotelBookingSystem\App.xaml
-3-1716427169
+61670689357
 
-19-1771733015
+24-1083282170
 1941645785384
-BookingWindow.xaml;MainWindow.xaml;SignUpWindow.xaml;
+BookingDetails.xaml;BookingWindow.xaml;HotelDetails.xaml;LoginWindow.xaml;MainWindow.xaml;SignUpWindow.xaml;
 
 True
 

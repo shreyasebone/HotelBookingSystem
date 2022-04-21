@@ -5,6 +5,6 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace HotelBookingSystem.HotelLandingPage {
-    internal class HotelDetailImpl {
+    internal class HotelDetailImpl :IHotelDetails {
     }
 }

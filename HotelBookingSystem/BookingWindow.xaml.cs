@@ -21,11 +21,11 @@ namespace HotelBookingSystem {
             InitializeComponent();
         }
 
-        private void txtHotelName_TextChanged(object sender, TextChangedEventArgs e) {
+        public void BookButton_Click(object sender, RoutedEventArgs e) {
 
-        }
-
-        private void TextBox_TextChanged(object sender, TextChangedEventArgs e) {
+            BookingDetails bookingDetails = new BookingDetails();
+            bookingDetails.Show();
+            this.Close();
 
         }
     }

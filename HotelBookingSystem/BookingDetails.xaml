@@ -5,7 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:HotelBookingSystem"
         mc:Ignorable="d"
-        Title="BookingDetails" Height="450" Width="800">
+        Title="BookingDetails" Height="450" Width="800"
+        
+        >
     <Grid>
         <Grid>
             <Grid>
@@ -14,39 +16,27 @@
                     <RowDefinition Height="95*"/>
                     <RowDefinition Height="339*"/>
                 </Grid.RowDefinitions>
-
-                <Grid Grid.Row="1">
-
-
-                    <Grid.RowDefinitions>
-                        <RowDefinition/>
-                        <RowDefinition/>
-                        <RowDefinition/>
-                        <RowDefinition/>
-                        <RowDefinition/>
-                    </Grid.RowDefinitions>
-
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="40*"/>
-                        <ColumnDefinition Width="40*"/>
-                        <ColumnDefinition Width="13*"/>
-                        <ColumnDefinition Width="27*"/>
-                        <ColumnDefinition Width="40*"/>
-                        <ColumnDefinition Width="40*"/>
-                    </Grid.ColumnDefinitions>
-
-                    <TextBlock x:Name="HotelName" HorizontalAlignment="Center" TextWrapping="Wrap" Text="HotelName" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" Margin="0,19,0,0"/>
-                    <TextBlock x:Name="CheckIn" Grid.Column="1" HorizontalAlignment="Center" Margin="0,19,0,0" TextWrapping="Wrap" Text="CheckInDate" VerticalAlignment="Top" FontSize="18" FontWeight="Bold"/>
-                    <TextBlock x:Name="CheckOut" Grid.Column="2" HorizontalAlignment="Left" Margin="19,19,0,0" TextWrapping="Wrap" Text="CheckOutDate" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" Width="134" Grid.ColumnSpan="2"/>
-                    <TextBlock x:Name="Amount" Grid.Column="4" HorizontalAlignment="Center" Margin="0,19,0,0" TextWrapping="Wrap" Text="Amount" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" Width="88" RenderTransformOrigin="0.744,0.522"/>
-                    <TextBlock x:Name="Status" Grid.Column="5" HorizontalAlignment="Center" Margin="0,19,0,0" TextWrapping="Wrap" Text="Status" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" RenderTransformOrigin="0.282,-0.31"/>
-
-                </Grid>
                 <Grid>
                     <TextBlock x:Name="HotelBooking" HorizontalAlignment="Left" Margin="32,20,0,0" TextWrapping="Wrap" Text="HotelBooking" VerticalAlignment="Top" FontSize="18" FontWeight="Bold"/>
                     <TextBox x:Name="SearchBox" HorizontalAlignment="Left" Margin="80,53,0,0" TextWrapping="Wrap" Text="SearchBox" VerticalAlignment="Top" Width="249" FontSize="18"/>
-                    <ListBox d:ItemsSource="{d:SampleData ItemCount=5}" Margin="678,32,12,16" SelectionChanged="ListBox_SelectionChanged"/>
                 </Grid>
+                
+                    <DataGrid x:Name="DataGridXaml" HorizontalAlignment="Stretch" Margin="0,95,0,0" Width="800" Grid.RowSpan="2">
+                    
+                        <DataGrid.Columns >
+                            <DataGridTextColumn Header="HotelId" Width="*"/>
+                            <DataGridTextColumn Header="HotelName" Width="*"/>
+                            <DataGridTextColumn Header="CheckInDate" Width="*"/>
+                            <DataGridTextColumn Header="CheckOutDate" Width="*"/>
+                            <DataGridTextColumn Header="Amount" Width="*"/>
+                            <DataGridTextColumn Header="Status" Width="*"/>
+
+
+                        </DataGrid.Columns>
+                    
+                </DataGrid>
+                
+
             </Grid>
 
 

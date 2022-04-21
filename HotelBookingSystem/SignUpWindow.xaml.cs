@@ -22,13 +22,13 @@ namespace HotelBookingSystem {
         }
 
         private void SignUP_Click(object sender, RoutedEventArgs e) {
-            MainWindow mainWindow = new MainWindow();
-            mainWindow.Show();
+            LoginWindow loginWindow = new LoginWindow();
+            loginWindow.Show();
             this.Close();
         }
         private void Reset_Click(object sender, RoutedEventArgs e) {
             SignUpWindow obj=new SignUpWindow();
-              this.Close();
+            this.Close();
             obj.Show();
         }
     }

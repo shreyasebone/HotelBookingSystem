@@ -53,14 +53,13 @@
 
                 <TextBlock x:Name="TxtBlockTotalAmount" HorizontalAlignment="Left" Margin="58,26,0,0" Grid.Row="3" TextWrapping="Wrap" Text="TotalAmount" VerticalAlignment="Top" FontSize="18"/>
                 <TextBox x:Name="txtHotelTotalAmount" HorizontalAlignment="Left" Margin="221,25,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="175" FontSize="18" Grid.Row="3"/>
-                <Button x:Name="BookButton" Content="Book" HorizontalAlignment="Left" Margin="293,15,0,0" Grid.Row="4" VerticalAlignment="Top" FontSize="20" Background="#FF6ABAF7" Width="62"/>
+                <Button x:Name="BookButton" Content="Book" HorizontalAlignment="Left" Margin="293,15,0,0" Grid.Row="4" VerticalAlignment="Top" FontSize="20" Background="#FF6ABAF7" Width="62" Click="BookButton_Click"/>
 
 
 
 
             </Grid>
             <TextBlock x:Name="TxtBlockBooking" HorizontalAlignment="Left" Margin="357,10,0,0" TextWrapping="Wrap" Text="Booking" VerticalAlignment="Top"  FontSize="22" FontWeight="Bold"/>
-            <TextBlock x:Name="UserName" HorizontalAlignment="Left" Margin="687,19,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="UserName" FontSize="18"/>
         </Grid>
         <TextBlock x:Name="UserName1" HorizontalAlignment="Left" Margin="671,10,0,0" TextWrapping="Wrap" Text="UserName" VerticalAlignment="Top" FontSize="18" Width="121"/>
         <TextBlock x:Name="HotelBooking" HorizontalAlignment="Left" Margin="48,22,0,0" TextWrapping="Wrap" Text="HotelBooking" VerticalAlignment="Top" FontSize="18" FontWeight="Bold"/>

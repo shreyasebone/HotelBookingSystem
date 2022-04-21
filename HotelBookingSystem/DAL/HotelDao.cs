@@ -6,8 +6,14 @@ using System.Threading.Tasks;
 
 namespace HotelBookingSystem.HotelDAL
 {
-    internal class HotelDao
+    public class HotelDao
     {
+        public int HotelId { get; set; }
+        public string HotelName { get; set; }
+        public int RoomPrice { get; set; }
+        public int Rating { get; set; }
+        public string Description { get; set; }
+        
 
     }
 }

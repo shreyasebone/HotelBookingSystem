@@ -5,6 +5,6 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace HotelBookingSystem.UserRegistration {
-    internal class UserLoginImpl {
+    internal class UserLoginImpl :IUserLogin {
     }
 }

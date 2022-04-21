@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HotelBookingSystem.HotelDAL
 {
-    internal class BookingRecordDao
+    public class BookingRecordDao
     {
         public int BookingID { get; set; }
         public string HotelName { get; set; }

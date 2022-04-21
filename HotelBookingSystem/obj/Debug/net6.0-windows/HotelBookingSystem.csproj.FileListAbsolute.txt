@@ -23,3 +23,9 @@ C:\Users\Shreya Paliwal\source\repos\HotelBookingSystem\HotelBookingSystem\obj\D
 C:\Users\Shreya Paliwal\source\repos\HotelBookingSystem\HotelBookingSystem\obj\Debug\net6.0-windows\ref\HotelBookingSystem.dll
 C:\Users\Shreya Paliwal\source\repos\HotelBookingSystem\HotelBookingSystem\obj\Debug\net6.0-windows\BookingWindow.g.cs
 C:\Users\Shreya Paliwal\source\repos\HotelBookingSystem\HotelBookingSystem\obj\Debug\net6.0-windows\BookingWindow.baml
+C:\Users\Shreya Paliwal\source\repos\HotelBookingSystem\HotelBookingSystem\obj\Debug\net6.0-windows\BookingDetails.g.cs
+C:\Users\Shreya Paliwal\source\repos\HotelBookingSystem\HotelBookingSystem\obj\Debug\net6.0-windows\BookingDetails.baml
+C:\Users\Shreya Paliwal\source\repos\HotelBookingSystem\HotelBookingSystem\obj\Debug\net6.0-windows\HotelDetails.g.cs
+C:\Users\Shreya Paliwal\source\repos\HotelBookingSystem\HotelBookingSystem\obj\Debug\net6.0-windows\LoginWindow.g.cs
+C:\Users\Shreya Paliwal\source\repos\HotelBookingSystem\HotelBookingSystem\obj\Debug\net6.0-windows\HotelDetails.baml
+C:\Users\Shreya Paliwal\source\repos\HotelBookingSystem\HotelBookingSystem\obj\Debug\net6.0-windows\LoginWindow.baml
